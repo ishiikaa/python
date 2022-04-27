@@ -1,0 +1,11 @@
+a = float(input('enter height in meter: '))
+b = float(input('enter weight: '))
+c = b/(a**2)
+print("Veer your BMI is : ", c)
+if c <= 18:
+    print("Poor Veer eww")
+elif c > 18 and c < 24:
+    print('healthy')
+elif c > 24:
+    print('over-weight')
+    
