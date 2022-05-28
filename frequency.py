@@ -21,7 +21,7 @@ def frequency(lst):
     for k, v in dictcount.items():
         if v == maxval:
             maxfreq.append(k)
-    maxfreq.sort()
+    maxfreq.sort() 
     tup1 = (minfreq, maxfreq)
     print(tup1)
 
